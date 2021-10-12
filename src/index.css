@@ -1,0 +1,18 @@
+/* applying universal border box */
+
+html {
+  font-size: 0.875em; /* 14px = 1rem */
+  box-sizing: border-box;
+}
+
+* ,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: serif;
+}

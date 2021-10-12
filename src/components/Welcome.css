@@ -1,0 +1,66 @@
+.intro {
+  height: 100vh;
+}
+.intro img {
+  max-width: 100%;
+  height: auto;
+}
+.unknown__data > div {
+  padding: 1em 0.5em;
+}
+.data__show {
+  text-align: center;
+}
+.data__show h2 {
+  font-size: 1.4rem;
+}
+
+.data__show p {
+  font-size: 1.1rem;
+}
+
+.data__take form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form > * {
+  margin: 1em;
+}
+form input {
+  border: none;
+  border-bottom: 2px rgb(0 255 255) solid;
+  background-color: rgb(236 236 236);
+  padding: 0.5em;
+  border-radius: 1em;
+  text-indent: 1em;
+  transition: all 100ms ease-in-out;
+}
+form input:focus-visible,
+form input:focus {
+  background-color: #fff;
+  outline: 2px solid cyan;
+  border: none;
+}
+form button {
+  padding: 0.8em 1em;
+  width: 50%;
+  margin: 1em auto;
+  border: 2px rgb(0 0 0) solid;
+  border-radius: 1em;
+  background: rgb(255 255 255);
+}
+form button:active,
+form button:hover {
+  background: rgb(255 255 255);
+  color: rgb(0 0 0);
+  border: 2px rgb(0 255 255) solid;
+}
+
+/* desktop view */
+@media screen and (min-width: 800px) {
+  .desktop {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
