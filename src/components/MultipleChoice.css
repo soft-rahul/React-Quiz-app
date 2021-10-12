@@ -1,0 +1,31 @@
+.question-container{
+    
+}
+.container{
+    height: 100vh;
+    background-color: #000;
+    color:#fff;
+}
+.container > div{
+    padding:1em;
+}
+.question{
+
+}
+.options ul{
+    text-align: center;
+    list-style-type: none;
+    padding:0;
+    width:90%;
+    margin:0 auto;
+
+}
+ul li{
+    padding: 1em 0.5em;
+    background-color: rgb(147 112 219);
+    border-radius: 1em;
+    margin: 1em 0;
+}
+.option{
+
+}

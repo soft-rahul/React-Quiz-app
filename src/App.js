@@ -4,7 +4,6 @@ import MultipleChoice from "./components/MultipleChoice";
 
 export default function App() {
   let isUnknown = localStorage.getItem("username") ? false : true;
-  let name = localStorage.getItem("username");
   if (isUnknown) {
     return <Welcome />;
   } else {
