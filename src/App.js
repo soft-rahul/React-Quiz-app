@@ -1,5 +1,6 @@
 import React from "react";
 import Welcome from "./components/Welcome";
+import MultipleChoice from "./components/MultipleChoice";
 
 export default function App() {
   let isUnknown = localStorage.getItem("username") ? false : true;
@@ -7,6 +8,8 @@ export default function App() {
   if (isUnknown) {
     return <Welcome />;
   } else {
-    return <h1> welocme {name} </h1>;
+    return (
+        <MultipleChoice/>
+    );
   }
 }

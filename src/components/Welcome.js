@@ -2,9 +2,7 @@ import React from "react";
 import "./Welcome.css";
 
 export default function Welcome() {
-  const submitHandler = (e) => {
-    e.preventDefault();
-  };
+  
 
   const inputHandler = (e) => {
     let username = e.target.value;
@@ -24,7 +22,7 @@ export default function Welcome() {
           </div>
           <div className="data__take">
             <form>
-              <input onChange={inputHandler} type="text" name="username" />
+              <input required onChange={inputHandler} type="text" name="username" />
               <button>Submit</button>
             </form>
           </div>
